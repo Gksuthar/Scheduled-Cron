@@ -1,0 +1,168 @@
+:root {
+  /* --primaryColor: #28c76f; */
+  --primaryColor: rgb(255, 115, 0);
+  --primaryColor40:  rgba(255, 115, 0, 0.2);
+
+  --primaryBTN: rgb(0, 149, 55);
+  --primaryColor25: #ff7a2925;
+  --primaryColor50: #ff7a2950;
+  --primaryColor75: #ff7a2975;
+  --successColor: #28c76f;
+  --successColor30: #28c76f30;
+  --successColor40: #28c76f40;
+  --successColor75: #28c76f40;
+  --dangerColor: #ba3648;
+  --dangerColor30: #ba364830;
+
+
+  --dangerColor40: #ba364840;
+  --dangerColor75: #ba364840;
+  --infoColor: #00cfe8;
+  --infoColor40: #00cfe840;
+  --waringColor: #f2be3a;
+  --waringColor40: #f2be3a40;
+  --waringColor75: #f2be3a40;
+  --slate50Color: rgb(248 250 252);
+  --slate500Color: rgb(148 163 184);
+  --slate500Color40: #94a3b840;
+  --slate500Color20: #94a3b820;
+  --slate600Color: rgb(71 85 105);
+  --slate700Color: rgb(51 65 85);
+  --whiteColor: #fff;
+  --blueColor: #477bf9;
+  --blueOpcityColor: #477bf930;
+  --bgColor: #f5f5f5;
+  --ComponentBgColor: #fff;
+  --secondaryColor: #858c93;
+  --secondaryColor40: #05070940;
+  --secondaryColor75: #6c757d75;
+  --bgallcolor: #ebeef4;
+  --TittleTextColor: #163c81;
+  --FontColor: #ff7a29;
+  --FadedSilver: #939393cd;
+
+  
+}
+
+.primaryBTN {
+  background-color: var(--primaryBTN);
+  color: white;
+  border-radius: 4px !important;
+  font-size: 12px;
+  border: none;
+  transition: box-shadow 0.3s ease;
+}
+body{
+  overflow: hidden;
+}
+thead {
+  top: 0 !important;
+  z-index: 10 !important; /* optional but helps if overlapping */
+  position: sticky;
+}
+.primaryBTN:hover {
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); 
+}
+
+
+a {
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: var(--primaryColor) !important;
+}
+
+body {
+  background-color: var(--bgallcolor) !important;
+  font-family: "Poppins", sans-serif !important;
+
+}
+
+.hideScroll::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+span,
+b,
+td,
+a {
+  color: var(--slate700Color);
+  font-weight: 400;
+}
+
+.main-menu ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+.main-Container {
+  
+  margin-left: 34px;
+  /* margin-right: 84px; */
+  width: calc(100% - 87px);
+  transition: margin-left 0.2s ease-in;
+}
+
+.full-container {
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.Screens-Container {
+  margin: 70px 12px 23px 12px !important;
+}
+
+.screen-container-0 {
+  margin: 61px 0px !important;
+}
+.TextColor {
+  color: var(--TittleTextColor);
+}
+
+.Fontcolor {
+  color: var(--primaryColor);
+}
+
+.savebg {
+  background-color: var(--successColor) !important;
+  color: white !important;
+}
+
+.inputlable {
+  font-size: "15px";
+  color: var(--slate700Color);
+  padding-left: 2px;
+}
+
+.only-bg{
+  background-color: var(--primaryColor) !important;
+  /* color: white !important; */
+}
+
+.bg-Color {
+  background-color: var(--primaryColor) !important;
+  color: white !important;
+  padding: 12px !important;
+}
+
+input {
+  height: 35px;
+  font-size: 14px;
+}
+
+input::placeholder {
+  font-size: 14px;
+  color: rgb(171, 171, 171);
+}
