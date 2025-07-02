@@ -25,7 +25,7 @@ const Home = () => {
           maxHeight: "100%",
           overflowY: "auto",
           height: "100%",
-          minHeight: "80vh",
+          minHeight: "50vh",
         }}
         className="table-responsive border-0 rounded-1"
         >
