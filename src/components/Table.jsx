@@ -3,7 +3,7 @@ import Pagination from "./Pagination";
 import SearchBar from "../components/SearchBar";
 import { BiSolidDownload } from "react-icons/bi";
 import { FaCircle, FaSort, FaSortDown, FaSortUp } from "react-icons/fa";
-import Avatar from "react-avatar";
+// import Avatar from "react-avatar";
 import MySVG from "./svg/MySvg";
 import { useDispatch } from "react-redux";
 import './Table.css'
@@ -206,11 +206,11 @@ const showTable = currentItems.length > 0;
                             </span>
                           ) : col.key === "name" ? (
                             <div className="d-flex align-items-center">
-                              <Avatar
+                              {/* <Avatar
                                 name={row[col.key]}
                                 size="30"
                                 round={true}
-                              />
+                              /> */}
                               <div className="ms-3  small">{row[col.key]}</div>
                             </div>
                           ) : (
